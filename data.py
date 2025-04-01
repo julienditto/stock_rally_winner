@@ -64,7 +64,8 @@ def data_organization(tickers):
             "access_key": "224568fb4db9c4a463cfb067117e088a",
             "symbols": tickers[i],
             "date_from": two_years_ago,
-            "date_to": yesterday
+            "date_to": yesterday,
+            "limit": "1000"
         }
         response = requests.get(base_url, params=params)
         if response.status_code == 200:
