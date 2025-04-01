@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Rally Winner</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f9;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            margin-bottom: 20px;
+            font-size: 2em;
+            color: #333;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1.2em;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #loadingMessage {
+            display: none;
+            font-size: 1.2em;
+            color: #555;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Stock Rally Winner</h1>
+        <p>On this website you can find trending stocks and analyze when they started trending</p>
+        <button id="findTrendingButton">Find Trending Tickers</button>
+        <p id="loadingMessage">Please wait while fetching tickers...</p>
+    </div>
+
+    <script>
+        document.getElementById("findTrendingButton").onclick = function() {
+            // Show the loading message
+            document.getElementById("loadingMessage").style.display = "block";
+            
+            // Redirect to the '/find_trending' route to show the tickers in the dropdown
+            window.location.href = "/find_trending";
+        };
+    </script>
+</body>
+</html>

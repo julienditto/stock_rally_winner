@@ -6,7 +6,7 @@ import shutil
 import requests
 import json
 import os
-from datetime import date, datetime, timedelta
+from datetime import datetime, timedelta
 
 yesterday = (datetime.today() - timedelta(days=1)).strftime("%Y-%m-%d")
 two_years_ago = (datetime.today() - timedelta(days=2 * 365)).strftime("%Y-%m-%d")
@@ -79,17 +79,17 @@ def data_organization(tickers):
             print(f"api call for ticker {tickers[i]} returned with status code {response.status_code}")
             break
 
-def data_analysis():
-    directory = './companies'  # '.' refers to the current working directory
-
-    # List all files that end with '.json' in the specified directory
-    companies_json_files = [f for f in os.listdir(directory) if f.endswith('.json') and os.path.isfile(os.path.join(directory, f))]
-    for i in range(len(companies_json_files)):
-        filename = "./companies/"
-        filename += companies_json_files[i]
-        with open(filename, 'r') as file:
-            company_stock_days = json.load(file)
+def data_analysis(selected_ticker, analysis_type):
+    filename = f"./companies/{selected_ticker}.json"
+    with open(filename, 'r') as file:
+        company_stock_days = json.load(file)
+    if analysis_type == "SMA":
         simple_moving_average(company_stock_days)
+    elif analysis_type == "MACD":
+        macd(company_stock_days)
     
 def simple_moving_average(company_stock_days):
+    pass
+
+def macd(company_stock_days):
     pass
