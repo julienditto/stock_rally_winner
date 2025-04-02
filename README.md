@@ -18,6 +18,7 @@ pip install selenium
 pip install beautifulsoup4
 pip install matplotlib
 pip install python-dateutil
+pip install requests
 You need to download a Google Chrome web driver and supply the path for selenium in the program. The driver should match the version of your Google Chrome installed on your device.
 Check your version on Google Chome About. Download chrome driver [here](https://developer.chrome.com/docs/chromedriver/downloads).
 ## Future Project Updates
