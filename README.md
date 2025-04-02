@@ -12,4 +12,13 @@ We use Selenium and Beautifulsoup to scrape the yahoo webpage for the trending t
 The technical analysis indicators we will using are Simple Moving Average (SMA) and Moving Average Convergence Divergence (MACD). For the SMA option, we plot the relationship between the 200-day and 50-day looking for crossovers which are called death cross and golden cross that indicate buy and sell signals. We use the MACD indicator to analyze short term trading trends looking out for crossovers between the signal line and the MACD line indicating buy and sell signals. Matplotlib are used to plot the price action, SMAs, and MACDs and the plotted images get stored under static/images.
 ## More Information
 For detailed infomration about the technical analysis indicators we use check out our google doc [moving averages](https://docs.google.com/document/d/1Zqj9vs-x7bcIaqzzTuPL9yHF1vUcGfuj/edit?usp=sharing&ouid=112221543553095764423&rtpof=true&sd=true).
+## Installation Instructions:
+pip install Flask
+pip install selenium
+pip install beautifulsoup4
+pip install matplotlib
+pip install python-dateutil
+You need to download a Google Chrome web driver and supply the path for selenium in the program. The driver should match the version of your Google Chrome installed on your device.
+Check your version on Google Chome About. Download chrome driver [here](https://developer.chrome.com/docs/chromedriver/downloads).
+
 
