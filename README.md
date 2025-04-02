@@ -11,5 +11,5 @@ We use Selenium and Beautifulsoup to scrape the yahoo webpage for the trending t
 ## Data Analysis and Visualization (written by Jake Johnson): 
 The technical analysis indicators we will using are Simple Moving Average (SMA) and Moving Average Convergence Divergence (MACD). For the SMA option, we plot the relationship between the 200-day and 50-day looking for crossovers which are called death cross and golden cross that indicate buy and sell signals. We use the MACD indicator to analyze short term trading trends looking out for crossovers between the signal line and the MACD line indicating buy and sell signals. Matplotlib are used to plot the price action, SMAs, and MACDs and the plotted images get stored under static/images.
 ## More Information
-For detailed infomration about the technical analysis indicators we use check out our google doc [moving average](https://docs.google.com/document/d/1Zqj9vs-x7bcIaqzzTuPL9yHF1vUcGfuj/edit?usp=sharing&ouid=112221543553095764423&rtpof=true&sd=true).
+For detailed infomration about the technical analysis indicators we use check out our google doc [moving averages](https://docs.google.com/document/d/1Zqj9vs-x7bcIaqzzTuPL9yHF1vUcGfuj/edit?usp=sharing&ouid=112221543553095764423&rtpof=true&sd=true).
 
