@@ -1,7 +1,7 @@
 # stock_rally_winner
 ### by Julien Ditto and Jake Johnson
 
-The program will scrape Yahoo Finance [Top Trending Stocks](https://finance.yahoo.com/markets/stocks/trending/) page for the day’s trending stock tickers. There will be API calls to Alpha Vantage Stock Market Data API to get stock data for each ticker and the data will be saved in JSON format to JSON files. Basic technical analysis will be performed on each company's stock data. The technical analysis results will help the user understand when the stock started trending and the momentum of the trend. The stock price data and technical analysis results will be saved in a visual format to be downloaded by the user. 
+The program scrapes Yahoo Finance [Top Trending Stocks](https://finance.yahoo.com/markets/stocks/trending/) page for the day’s trending stock tickers. There will be API calls to Market Stack Stock API to get stock data for each ticker and the data will be saved in JSON format to JSON files. Basic technical analysis will be performed on each company's stock data. The technical analysis results will help the user understand when the stock started trending and the momentum of the trend. The stock price data and technical analysis results get plotted to images which are accessbile to the user by a drop down list. 
 
 # Project Outline/Plan
 ## Interface Plan: 
