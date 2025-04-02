@@ -3,7 +3,7 @@
 
 The program scrapes Yahoo Finance [Top Trending Stocks](https://finance.yahoo.com/markets/stocks/trending/) page for the day’s trending stock tickers. We use a third party API Market Stack Stock API to get stock data for each ticker. Basic technical analysis is performed on each company's stock data. The technical analysis results help the user understand when the stock started trending and the momentum of the trend. The stock price data and technical analysis results get plotted to images which are accessbile to the user by a drop down list. 
 
-# Project Outline/Plan
+# Project Outline
 ## Interface (written by Julien Ditto): 
 Widgets/buttons are made using HTML, CSS, and rendered with Flask. The user needs to select to fetch trending stock. The GUI displays a message to the user to wait while program fetches the trending tickers. The waiting process can take up to a minute because the program needs to scrape the yahoo webpage and make api calls for stock data. Onces all the data is ready, the user is forwarded to a page where they can select from a dropdown menu of the trending tickers, which one they want to analyze and the type of analysis they want done (MACD or SMA). Once the selection is complete they are forwarded to a page for the plotted image of the analysis.
 ## Data Collection and Storage (written by Julien Ditto): 
