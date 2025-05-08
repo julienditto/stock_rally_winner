@@ -19,7 +19,7 @@ pip install beautifulsoup4
 pip install matplotlib
 pip install python-dateutil
 pip install requests
-You need to download a Google Chrome web driver and supply the path for selenium in the program. The driver should match the version of your Google Chrome installed on your device.
+You need to download a Google Chrome web driver and supply the path for selenium in the program. The driver version should match the version of your Google Chrome installed on your device.
 Check your version on Google Chome About. Download chrome driver [here](https://developer.chrome.com/docs/chromedriver/downloads). Copy the link for the correct web driver download and paste it into your url to download.
 ## Future Project Updates
 If we were to continue working on the project, we would provide analysis and visualization options for more technical analysis indicators such as the Releative Strength Index (RSI), Bollinger Bands, Stochastic Osillators, and Average Directional Index (ADX).
