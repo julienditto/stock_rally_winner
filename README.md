@@ -13,12 +13,20 @@ The technical analysis indicators we will using are Simple Moving Average (SMA) 
 ## More Information
 For detailed infomration about the technical analysis indicators we use check out our google doc [moving averages](https://docs.google.com/document/d/1Zqj9vs-x7bcIaqzzTuPL9yHF1vUcGfuj/edit?usp=sharing&ouid=112221543553095764423&rtpof=true&sd=true).
 ## Installation Instructions:
+Here are the installations you need to make before running the application:
+
 pip install Flask
+
 pip install selenium
+
 pip install beautifulsoup4
+
 pip install matplotlib
+
 pip install python-dateutil
+
 pip install requests
+
 You need to download a Google Chrome web driver and supply the path for selenium in the program. The driver version should match the version of your Google Chrome installed on your device.
 Check your version on Google Chome About. Download chrome driver [here](https://developer.chrome.com/docs/chromedriver/downloads). Copy the link for the correct web driver download and paste it into your url to download.
 ## Future Project Updates
